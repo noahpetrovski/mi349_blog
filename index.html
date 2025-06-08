@@ -1,14 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
-  </head>
-  <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock n Roll Blog</title>
+</head>
+<body>
+  <header>
+    <h1>Rock n Roll Interface</h1>
+    <p>Click any of the links to be taken to a new page</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="blog">
+    <h2>Rock n Roll blog</h2>
+    <article class="blog-post">
+      <h3>Best Album of All Time Debate</h3>
+      <time datetime="2025-06-08">June 8, 2025</time>
+      <address class="author">by Noah Petrovski</address>
+      <img src="images/story1image.png" alt="Epic picture of Jimi Hendrix ripping a guitar">
+      <p>Write at least 200 words here about your rock and roll topic, such as a band spotlight, album review, or era deep dive.</p>
+
+      <table border="1">
+        <caption>Top 3 Albums of All Time</caption>
+        <thead>
+          <tr>
+            <th>Album</th>
+            <th>Artist</th>
+            <th>Release Year</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Ride the Lightning</td><td>Metallica</td><td>1984</td></tr>
+          <tr><td>Facelift</td><td>Alice in Chains</td><td>1990</td></tr>
+          <tr><td>Nevermind</td><td>Nirvana</td><td>1991</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Why Rock is NOT Dead</h2>
+      <time datetime="2025-06-07">June 7, 2025</time>
+      <address>by Noah Petrovski</address>
+      <img src="images/story2image.png" alt="KISS band members">
+      <p>Write at least 200 words here about another rock and roll topic of your choice.</p>
+    </section>
+
+    <section>
+      <h3>Sign Up for Our Newsletter</h3>
+      <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </main>
+</body>
 </html>
